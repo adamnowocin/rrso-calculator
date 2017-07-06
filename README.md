@@ -1,5 +1,3 @@
-# WORK IN PROGRESS
-
 # rrso-calculator
 Kalkulator Rzeczywistej Rocznej Stopy Procentowej
 
