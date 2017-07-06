@@ -1,7 +1,4 @@
-export interface Result {
-    rrso: number;
-    amountToPay: number;
-}
+import { RrsoResult } from './rrso-result';
 export declare class RRSO {
-    calculate(amount: number, time: number, isDays: number, intrest: number, commission: number): Result;
+    calculate(amount: number, time: number, isDays: boolean, intrest: number, commission: number): RrsoResult;
 }

@@ -1,10 +1,7 @@
-export interface Result {
-  rrso: number;
-  amountToPay: number;
-}
+import { RrsoResult } from './rrso-result';
 
 export class RRSO {
-  calculate(amount: number, time: number, isDays: number, intrest: number, commission: number): Result {
+  calculate(amount: number, time: number, isDays: boolean, intrest: number, commission: number): RrsoResult {
     const t: number = isDays ? time / 365 : time / 12;
     const toPay = amount + amount * commission + amount * intrest * t;
     return {

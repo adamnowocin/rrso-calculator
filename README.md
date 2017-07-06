@@ -1,11 +1,16 @@
+# WORK IN PROGRESS
+
 # rrso-calculator
 Kalkulator Rzeczywistej Rocznej Stopy Procentowej
 
-# Example usage
+## Example usage
 ```
-calculate(amount, time, isDays, intrest, commission);
+RRSO.calculate(amount, time, isDays, intrest, commission);
 
-calculate(500, 8, false, 0.05, 0);
+RRSO.calculate(500, 8, false, 0.05, 0);
 ```
 
-# WORK IN PROGRESS
+## License
+
+**rrso-calculator** is licensed under the [MIT license](http://opensource.org/licenses/MIT).
+For the full license, see the `LICENSE` file.
