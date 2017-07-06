@@ -1,4 +1,5 @@
 import { RrsoResult } from './rrso-result';
+import { RrsoConfig } from './rrso-config';
 export declare class RRSO {
-    calculate(amount: number, time: number, isDays: boolean, intrest: number, commission: number): RrsoResult;
+    getSimpleResult(amount: number, months: number, days: number, config: RrsoConfig): RrsoResult;
 }

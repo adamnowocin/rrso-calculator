@@ -1,12 +1,12 @@
 {
   "name": "rrso-calculator",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "RRSO calculator",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "tsc && mocha test/test.js"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/adamnowocin/rrso-calculator#readme",
   "devDependencies": {
+    "chai": "^4.0.2",
     "mocha": "^3.4.2",
     "typescript": "^2.4.1"
   }
