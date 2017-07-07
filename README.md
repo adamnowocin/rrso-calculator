@@ -10,7 +10,7 @@ const amount = 1500;
 const months = 8;
 const days = 0;
 const config = {
-  intrest: 0.10,
+  interest: 0.10,
   commission: 0
 };
 
@@ -24,7 +24,7 @@ const amount = 500;
 const months = 0;
 const days = 20;
 const config = {
-  intrest: 0.10,
+  interest: 0.10,
   commission: 0.20
 };
 

@@ -12,7 +12,7 @@ describe('RRSO', function() {
     it('should return proper result when borrowed 1500$ for 1 month with 10% interest rate', function() {
       // given
       const config = {
-        intrest: 0.10,
+        interest: 0.10,
         commission: 0
       };
 
@@ -27,7 +27,7 @@ describe('RRSO', function() {
     it('should return proper result when borrowed 500$ for 20 days with 10% interest rate and 20% commision', function() {
       // given
       const config = {
-        intrest: 0.10,
+        interest: 0.10,
         commission: 0.20
       };
 
